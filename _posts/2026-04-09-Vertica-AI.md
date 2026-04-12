@@ -5,7 +5,7 @@ categories: [Vertica, MCP, Vector Embedding]
 tags: [vertica, MCP, AI]
 image:
   path: /assets/thumbnail/thumbnail-1.png
-  alt: 포스트 썸네일
+  alt: Vertica MCP & Vector Embedding
 ---
 
 test 입니다.
