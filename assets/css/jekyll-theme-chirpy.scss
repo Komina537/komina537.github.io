@@ -30,34 +30,10 @@
   }
 }
 
-/* 메뉴 텍스트 */
 #sidebar .nav-link,
 #sidebar .nav-link span,
+#sidebar .nav-link i,
 #sidebar .site-title,
 #sidebar .site-subtitle {
   color: #ffffff !important;
-}
-
-/* 메뉴 아이콘만 흰색 */
-#sidebar ul li.nav-item > .nav-link i {
-  color: #ffffff !important;
-}
-
-/* 하단 아이콘(light/dark, twitter, x, mail, feed)은 회색 */
-#sidebar .sidebar-bottom a,
-#sidebar .sidebar-bottom button,
-#sidebar .sidebar-bottom i,
-#sidebar #mode-toggle,
-#sidebar #mode-toggle i {
-  color: var(--sidebar-muted-color) !important;
-}
-
-/* hover 시 밝게 */
-#sidebar .sidebar-bottom a:hover,
-#sidebar .sidebar-bottom button:hover,
-#sidebar .sidebar-bottom a:hover i,
-#sidebar .sidebar-bottom button:hover i,
-#sidebar #mode-toggle:hover,
-#sidebar #mode-toggle:hover i {
-  color: var(--sidebar-active-color) !important;
 }
