@@ -11,8 +11,17 @@
 /* append your custom style below */
 
 #sidebar {
+  width: 300px !important;
+  min-width: 300px !important;
   background: url('/assets/img/komina-sidebar-image.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 850px) {
+  #main-wrapper,
+  #topbar-wrapper {
+    margin-left: 300px !important;
+  }
 }
