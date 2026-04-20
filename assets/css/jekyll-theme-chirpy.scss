@@ -17,6 +17,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  --sidebar-muted-color: rgba(255, 255, 255, 0.78);
+  --sidebar-active-color: rgba(255, 255, 255, 0.98);
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.12);
 }
 
 @media (min-width: 850px) {
