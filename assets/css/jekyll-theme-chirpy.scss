@@ -15,7 +15,7 @@
   min-width: clamp(260px, 28vw, 350px) !important;
   max-width: 350px !important;
   background: url('/assets/img/komina-sidebar-image.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   --sidebar-muted-color: rgba(255, 255, 255, 0.78);
